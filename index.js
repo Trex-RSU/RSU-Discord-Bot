@@ -1,3 +1,4 @@
+//this is not actully my code and i failed and it useless and trash 
 const {Client, Attachment} = require('discord.js');
 const client = new Client();
 
@@ -89,6 +90,7 @@ request(options, function(error, response, responseBody) {
     message.channel.send( urls[Math.floor(Math.random() * urls.length)]);
 });
 client.login('Your token')
+
 
 
 
