@@ -5,7 +5,6 @@ const cheerio = require('cheerio');
 
 const request = require('request');
 
-const token = 'NzE4NDY0NDU0ODIzNzcyMjcy.XtqeOQ.svqfpoYQRZvL7gSjgj_fejw0v3Q';
 
 const PREFIX = "?";
 
@@ -89,8 +88,7 @@ request(options, function(error, response, responseBody) {
     // Send result
     message.channel.send( urls[Math.floor(Math.random() * urls.length)]);
 });
-
-client.login('NzE4NDY0NDU0ODIzNzcyMjcy.XtpQwQ.kqOaR2z1kzzboPlgWMYYrdgaVeo');
+client.login('Your token')
 
 
 
